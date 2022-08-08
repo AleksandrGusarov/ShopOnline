@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="fonts/Lato-Regular.ttf" as="font" type="font/truetype" crossorigin>
+    <link rel="preload" href="fonts/Lato-Bold.ttf" as="font" type="font/truetype" crossorigin>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>ShopOnline</title>
+</head>
+<body class="page">
+<header class="page__header header">
+    <section class="header__section">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__line">
+                    <div class="header__logo logo">
+                        <h2 class="logo__title">Shop<span class="logo__subtitle">Online</span></h2>
+                    </div>
+
+                    <div class="header__menu menu">
+                        <a class="menu__item" href="#">Меню</a>
+                    </div>
+
+                    <div class="header__search search">
+                        <form class="search__form search-bar" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                            <div class="search-bar__wrapper">
+                                <label>
+                                    <input class="search-bar__field" type="text" name="search" placeholder="Я ищу..." required>
+                                    <button class="search-bar__submit" type="submit"></button>
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+
+                    <nav class="header__navigation navigation-menu">
+                        <ul class="navigation-menu__list">
+                            <li class="navigation-menu__item profile">
+                                <img src="image/person.svg" alt="person">
+                                <a class="navigation-menu__link " href="#">Профиль</a>
+                            </li>
+                            <li class="navigation-menu__item basket">
+                                <img src="image/shopping_cart.svg" alt="shopping_cart">
+                                <a class="navigation-menu__link " href="#">Корзина</a>
+                            </li>
+                            <li class="navigation-menu__item favorite">
+                                <img src="image/favorite.svg" alt="favorite">
+                                <a class="navigation-menu__link " href="#">Избранное</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<main class="page__main main">
+    <section class="main__shop shop">
+        <div class="container">
+            <div class="shop__wrapper">
+                <div class="shop__wrapper-banner banner-first">
+                    <div class="shop__shelf-first first">
+                        <div class="first__wrapper-one">
+                            <h1 class="first__title">-50% на все ноутбуки</h1>
+                        </div>
+                        <div class="first__wrapper-two">
+                            <p class="first__description">До конца акции:</p>
+                            <p class="first__description-second"><span>3</span> дня  <span> 8</span> часов  <span> 43</span> минуты</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop__wrapper-other other">
+                    <div class="shop__shelf-second second">
+                        <p class="second__description"><span>Книга &ndash; </span> лучший подарок</p>
+                    </div>
+                    <div class="shop__shelf-third third">
+                        <p class="third__description">Время скидок!</p>
+                        <p class="third__description-second">-25%</p>
+                    </div>
+                    <div class="shop__shelf-fourth fourth">
+                        <div class="fourth__wrapper">
+                            <p class="fourth__description">Вторая пара кроссовок
+                                <span>в подарок!</span> </p>
+                        </div>
+                    </div>
+                    <div class="shop__shelf-fifth fifth">
+                        <p class="fifth__description">Идеи новогодних подарков</p>
+                    </div>
+                    <div class="shop__shelf-sixth sixth">
+                        <p class="sixth__description">-40%</p>
+                    </div>
+                    <div class="shop__shelf-seventh seventh">
+                        <p class="seventh__description">Выгодно в декабре!</p>
+                        <p class="seventh__description-second">-15%</p>
+                    </div>
+                    <div class="shop__shelf-eighth eighth">
+                        <p class="eighth__description">Новогодние украшения</p>
+                    </div>
+                    <div class="shop__shelf-ninth ninth">
+                        <p class="ninth__description">-55%</p>
+                    </div>
+                    <div class="shop__shelf-tenth tenth">
+                        <p class="tenth__description">25%</p>
+                        <p class="tenth__description-second">На бытовую химию</p>
+                    </div>
+                    <div class="shop__shelf-eleventh eleventh"></div>
+                </div>
+                <div class="shop__eighth eighth-two">
+                    <p class="eighth-two__description">Новогодние украшения</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!--    <footer class="page__footer footer">-->
+<!--    </footer>-->
+</body>
+</html>
